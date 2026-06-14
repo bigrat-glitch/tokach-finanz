@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viktor Tokach - Finanzberatung</title>
+
+    <!-- Сучасний шрифт Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Безкоштовні іконки Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <style>
         body {
@@ -69,6 +74,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            position: relative;
             padding: 16px;
             background: rgba(255, 255, 255, 0.03);
             border: 1px solid rgba(255, 255, 255, 0.15);
@@ -78,6 +84,14 @@
             font-size: 16px;
             font-weight: 500;
             transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+
+        /* Стиль для іконок: відступ справа та фіксована ширина, щоб текст не зсувався */
+        a.link-btn i {
+            margin-right: 10px;
+            font-size: 18px;
+            width: 20px;
+            text-align: center;
         }
 
         @media (hover: hover) {
@@ -122,9 +136,15 @@
     </div>
 
     <div class="links-container">
-        <a href="https://www.facebook.com/share/1D8KkNpkxX/?mibextid=wwXIfr" class="link-btn" target="_blank" rel="noopener noreferrer">Facebook</a>
-        <a href="https://www.instagram.com/tokachvv?igsh=cm1jN2Y0YTFoMDJq&utm_source=qr" class="link-btn" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="mailto:thetokach@gmail.com" class="link-btn">E-Mail</a>
+        <a href="https://www.facebook.com/share/1D8KkNpkxX/?mibextid=wwXIfr" class="link-btn" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-facebook-f"></i>Facebook
+        </a>
+        <a href="https://www.instagram.com/tokachvv?igsh=cm1jN2Y0YTFoMDJq&utm_source=qr" class="link-btn" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram"></i>Instagram
+        </a>
+        <a href="mailto:thetokach@gmail.com" class="link-btn">
+            <i class="fa-regular fa-envelope"></i>E-Mail
+        </a>
     </div>
 
     <div class="booking-section">
@@ -133,8 +153,12 @@
         </div>
 
         <div class="links-container">
-            <a href="https://t.me/tokachvv" class="link-btn" target="_blank" rel="noopener noreferrer">Telegram</a>
-            <a href="https://wa.me/4915750686547" class="link-btn" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            <a href="https://t.me/tokachvv" class="link-btn" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-telegram"></i>Telegram
+            </a>
+            <a href="https://wa.me/4915750686547" class="link-btn" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-whatsapp"></i>WhatsApp
+            </a>
         </div>
     </div>
 </main>
